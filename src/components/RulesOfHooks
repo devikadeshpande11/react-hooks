@@ -1,0 +1,5 @@
+"Only call hooks at the Top Level"
+Don't call hooks inside loops, conditions or nested functions.
+
+"Only call Hooks from React Functions"
+Call them from within React Functional Components and not just any other regular Javascript functions.
